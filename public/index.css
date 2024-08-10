@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+section {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  font-family: cursive;
+}
+
+li {
+  margin-top: 5px;
+}
+
+.form-section {
+  background-color: #333;
+  padding: 10px;
+}
+
+form {
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+#name,
+#email {
+  border-radius: 20px;
+  width: 200px;
+}
+
+#message {
+  border-radius: 20px;
+  width: 300px;
+  height: 50px;
+}
+
+#submit {
+  border: #000;
+  border-radius: 20px;
+  width: 80px;
+  color: #000000;
+  background-color: bisque;
+}
